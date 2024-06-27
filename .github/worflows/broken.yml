@@ -1,6 +1,8 @@
 name: broken
 
 on:
+  watch:
+    types: [started]
   push:
 
 jobs:
